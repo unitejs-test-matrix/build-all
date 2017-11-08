@@ -6,7 +6,10 @@ const repos = [
     "unitejs-test-matrix/pa-matrix",
     "unitejs-test-matrix/po-matrix",
     "unitejs-test-matrix/pr-matrix",
-    "unitejs-test-matrix/re-matrix",
+    "unitejs-test-matrix/re-browserify-matrix",
+    "unitejs-test-matrix/re-requirejs-matrix",
+    "unitejs-test-matrix/re-systemjs-matrix",
+    "unitejs-test-matrix/re-webpack-matrix",
     "unitejs-test-matrix/vu-matrix"
 ];
 
