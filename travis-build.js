@@ -1,16 +1,30 @@
 const travisPing = require("travis-ping");
 
 const repos = [
-    "unitejs-test-matrix/au-matrix",
-    "unitejs-test-matrix/ng-matrix",
-    "unitejs-test-matrix/pa-matrix",
-    "unitejs-test-matrix/po-matrix",
-    "unitejs-test-matrix/pr-matrix",
+    "unitejs-test-matrix/au-requirejs-matrix",
+    "unitejs-test-matrix/au-systemjs-matrix",
+    "unitejs-test-matrix/ng-browserify-matrix",
+    "unitejs-test-matrix/ng-systemjs-matrix",
+    "unitejs-test-matrix/ng-webpack-matrix",
+    "unitejs-test-matrix/pa-browserify-matrix",
+    "unitejs-test-matrix/pa-requirejs-matrix",
+    "unitejs-test-matrix/pa-systemjs-matrix",
+    "unitejs-test-matrix/pa-webpack-matrix",
+    "unitejs-test-matrix/po-browserify-matrix",
+    "unitejs-test-matrix/po-systemjs-matrix",
+    "unitejs-test-matrix/po-webpack-matrix",
+    "unitejs-test-matrix/pr-browserify-matrix",
+    "unitejs-test-matrix/pr-requirejs-matrix",
+    "unitejs-test-matrix/pr-systemjs-matrix",
+    "unitejs-test-matrix/pr-webpack-matrix",
     "unitejs-test-matrix/re-browserify-matrix",
     "unitejs-test-matrix/re-requirejs-matrix",
     "unitejs-test-matrix/re-systemjs-matrix",
     "unitejs-test-matrix/re-webpack-matrix",
-    "unitejs-test-matrix/vu-matrix"
+    "unitejs-test-matrix/vu-browserify-matrix",
+    "unitejs-test-matrix/vu-requirejs-matrix",
+    "unitejs-test-matrix/vu-systemjs-matrix",
+    "unitejs-test-matrix/vu-webpack-matrix"
 ];
 
 let repoCounter = 0;
