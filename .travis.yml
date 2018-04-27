@@ -1,7 +1,7 @@
 language: node_js
 node_js:
-  - node
+  - 9
 install:
   - npm install
 script: 
-  - node travis-build.js
+  - 9 travis-build.js
