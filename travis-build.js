@@ -44,7 +44,7 @@ const pingRepo = (index) => {
             }
             repoCounter++;
             if (repoCounter < repos.length) {
-                setTimeout(() => pingRepo(repoCounter), 10000);
+                setTimeout(() => pingRepo(repoCounter), 3000);
             }
         }
     )
