@@ -10,7 +10,6 @@ const repos = [
     "unitejs-test-matrix/po-systemjs-matrix",
     "unitejs-test-matrix/po-webpack-matrix",
     "unitejs-test-matrix/pr-browserify-matrix",
-    "unitejs-test-matrix/pr-requirejs-matrix",
     "unitejs-test-matrix/pr-systemjs-matrix",
     "unitejs-test-matrix/pr-webpack-matrix",
     "unitejs-test-matrix/re-browserify-matrix",
